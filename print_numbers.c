@@ -180,5 +180,5 @@ unsigned int convert_u(va_list args, buffer_t *output,
 
 	ret += print_neg_width(output, ret, flags, wid);
 
-	r(ret);
+	return (ret);
 }
